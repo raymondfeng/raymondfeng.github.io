@@ -1,1 +1,5 @@
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-hacker
+title: Raymond Feng
+description: Crafting software to connect the world by APIs - data, services, and infrastructure
+github:
+  is_project_page: false
