@@ -39,6 +39,8 @@ Guided the development of LoopBack and API Connect, contributing to IBM's leader
 
 Co-founded StrongLoop, leading product and technical strategy, resulting in its acquisition by IBM. Engaged with the developer community to drive adoption and contributed significantly to the Node.js ecosystem.
 
+Co-created the [LoopBack.io](https://loopback.io), an highly extensible Node.js and TypeScript framework for building APIs and microservices. It won [the 2019 API Award for the "Best in API Middleware" category](https://loopback.io/blog/loopback-2019-api-award-api-middleware) and now an at-large project under [OpenJS foundation](https://openjsf.org/projects).
+
 ### Shutterfly, Inc. - Staff Web Engineer, Platform Engineering (04/2010 - 02/2013)
 
 Led the development of Shutterfly's open web APIs and service externalization platforms. Innovated in service routing, dispatch, and performance optimization, enhancing platform scalability and developer integration.
