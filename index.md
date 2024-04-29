@@ -3,9 +3,10 @@
 <img src="rfeng.png" align="right"/>
 
 - **E-mail:** cyberfeng@gmail.com
-- **Github:** [github.com/raymondfeng](https://github.com/raymondfeng)
-- **LinkedIn:** [linkedin.com/in/raymondfeng](https://www.linkedin.com/in/raymondfeng/)
-- **Twitter:** [twitter.com/cyberfeng](https://twitter.com/cyberfeng)
+- **Github:** [raymondfeng](https://github.com/raymondfeng)
+- **LinkedIn:** [raymondfeng](https://www.linkedin.com/in/raymondfeng/)
+- **Twitter:** [cyberfeng](https://twitter.com/cyberfeng)
+- **Farcaster:** [cyberfeng](https://warpcast.com/cyberfeng)
 
 ## Summary
 
@@ -20,7 +21,7 @@ Accomplished technical leader with extensive experience in developing innovative
 
 ## Professional Experience
 
-### Abridged, Inc. - Co-Founder and CTO (02/2021 - Present)
+### Abridged, Inc. (Collab.Land) - Co-Founder and CTO (02/2021 - Present)
 
 As Co-Founder and CTO of Abridged, Inc., I've been instrumental in shaping Collab.Land into a pioneering community management tool that leverages blockchain technology to facilitate secure, token-based community engagement. Under my leadership, Collab.Land has become a critical tool for digital asset communities, reflecting my commitment to innovation, technical excellence, and impactful leadership.
 
