@@ -1,0 +1,53 @@
+{
+  "personal": {
+    "name": "Raymond Feng",
+    "title": "Co-Founder & CTO",
+    "subtitle": "Web3 Pioneer | API Architect",
+    "tagline": "Crafting software to connect the world by APIs - data, services, and infrastructure",
+    "email": "cyberfeng@gmail.com",
+    "social": {
+      "github": "raymondfeng",
+      "linkedin": "raymondfeng",
+      "twitter": "cyberfeng",
+      "farcaster": "cyberfeng"
+    }
+  },
+  "summary": "Accomplished technical leader with extensive experience in developing innovative software solutions, leading high-performing teams, and driving growth in startup environments. Expert in Web3, APIs, and open-source technology with a track record of delivering scalable projects and fostering community engagement.",
+  "achievements": [
+    {
+      "number": 3000000,
+      "label": "Users",
+      "description": "Scaled Collab.Land to over 3 million users"
+    },
+    {
+      "number": 55000,
+      "label": "Communities",
+      "description": "Serving 55K+ tokenized communities"
+    },
+    {
+      "number": 2400000,
+      "label": "Downloads",
+      "description": "LoopBack framework in 2023"
+    },
+    {
+      "number": 34,
+      "label": "Blockchains",
+      "description": "Integrated into Collab.Land"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Engineering",
+      "institution": "Institute of Software, Chinese Academy of Sciences",
+      "location": "Beijing, China",
+      "years": "1993-1996"
+    },
+    {
+      "degree": "Bachelor of Computer Software",
+      "institution": "University of Science and Technology of China",
+      "location": "Hefei, Anhui, China",
+      "years": "1988-1993"
+    }
+  ],
+  "note": "This file contains structured content data for the personal website. Update this file to modify content without touching HTML. Future enhancement: load this data dynamically with JavaScript."
+}

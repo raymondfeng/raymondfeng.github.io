@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raymond Feng - Technical Partner at Faction VC. Web3 pioneer, API architect, and open-source leader with 20+ years experience building scalable systems.">
+    <meta name="keywords" content="Raymond Feng, Faction VC, Web3, Blockchain, Venture Capital, APIs, LoopBack, Collab.Land, Technical Partner, Software Architecture">
+    <meta name="author" content="Raymond Feng">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Raymond Feng - Web3 Pioneer & API Architect">
+    <meta property="og:description" content="Technical Partner at Faction VC. Building the future of Web3 through strategic investments and technical leadership.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cyberfeng.com">
+    <meta property="og:image" content="https://cyberfeng.com/rfeng.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@cyberfeng">
+    <meta name="twitter:title" content="Raymond Feng - Web3 Pioneer & API Architect">
+    <meta name="twitter:description" content="Technical Partner at Faction VC. Building the future of Web3 through strategic investments and technical leadership.">
+
+    <title>Raymond Feng - Web3 Pioneer & API Architect</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">RF</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <img src="rfeng.png" alt="Raymond Feng" class="profile-image">
+            <h1 class="hero-title">Raymond Feng</h1>
+            <p class="hero-subtitle">Technical Partner @ Faction VC | Web3 Pioneer | API Architect</p>
+            <p class="hero-tagline">Building the future of Web3 through strategic investments and technical leadership</p>
+            <div class="hero-cta">
+                <a href="#about" class="btn-primary">Learn More</a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            </div>
+            <div class="social-links">
+                <a href="mailto:cyberfeng@gmail.com" class="social-link" aria-label="Email" title="Email">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </a>
+                <a href="https://github.com/raymondfeng" class="social-link" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/raymondfeng/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                </a>
+                <a href="https://twitter.com/cyberfeng" class="social-link" target="_blank" rel="noopener" aria-label="Twitter" title="Twitter">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                </a>
+                <a href="https://warpcast.com/cyberfeng" class="social-link" target="_blank" rel="noopener" aria-label="Farcaster" title="Farcaster">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.8 4.6c-.5-.4-1.2-.3-1.6.2L12 13.5 4.8 4.8c-.4-.5-1.1-.6-1.6-.2-.5.4-.6 1.1-.2 1.6l8 10c.2.3.5.4.9.4s.7-.1.9-.4l8-10c.4-.5.3-1.2-.2-1.6zm-8.8 8.6c-.4 0-.7.3-.7.7v5.4c0 .4.3.7.7.7s.7-.3.7-.7v-5.4c0-.4-.3-.7-.7-.7z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-content" data-animate="fade-up">
+                    <p class="lead">Accomplished technical leader with extensive experience in developing innovative software solutions, leading high-performing teams, and driving growth in startup environments. Expert in Web3, APIs, and open-source technology with a track record of delivering scalable projects and fostering community engagement.</p>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card" data-animate="fade-up">
+                        <div class="achievement-number" data-count="3000000">0</div>
+                        <div class="achievement-label">Users</div>
+                        <p class="achievement-detail">Scaled Collab.Land to over 3 million users</p>
+                    </div>
+                    <div class="achievement-card" data-animate="fade-up">
+                        <div class="achievement-number" data-count="55000">0</div>
+                        <div class="achievement-label">Communities</div>
+                        <p class="achievement-detail">Serving 55K+ tokenized communities</p>
+                    </div>
+                    <div class="achievement-card" data-animate="fade-up">
+                        <div class="achievement-number" data-count="2400000">0</div>
+                        <div class="achievement-label">Downloads</div>
+                        <p class="achievement-detail">LoopBack framework in 2023</p>
+                    </div>
+                    <div class="achievement-card" data-animate="fade-up">
+                        <div class="achievement-number" data-count="34">0</div>
+                        <div class="achievement-label">Blockchains</div>
+                        <p class="achievement-detail">Integrated into Collab.Land</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-alternate">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">Technical Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-animate="fade-up">
+                    <h3 class="category-name">Web3 & Blockchain</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Blockchain Integration</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="95"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">Ethereum</span>
+                                <span class="tag">34+ Chains</span>
+                                <span class="tag">Token Gating</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Smart Contracts & DApps</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="85"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">Digital Assets</span>
+                                <span class="tag">Web3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate="fade-up">
+                    <h3 class="category-name">Backend & APIs</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">API Development</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="98"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">LoopBack</span>
+                                <span class="tag">REST</span>
+                                <span class="tag">Microservices</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Node.js & TypeScript</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="95"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate="fade-up">
+                    <h3 class="category-name">Cloud & Infrastructure</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Kubernetes & Scalability</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="90"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">Kubernetes</span>
+                                <span class="tag">GCP</span>
+                                <span class="tag">80 jobs/sec</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Cloud Architecture</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="88"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">SOA</span>
+                                <span class="tag">Microservices</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-animate="fade-up">
+                    <h3 class="category-name">Leadership & Community</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Technical Leadership</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="95"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">Team Building</span>
+                                <span class="tag">Strategy</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Open Source & Community</span>
+                                <span class="skill-level">Expert</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="92"></div>
+                            </div>
+                            <div class="skill-tags">
+                                <span class="tag">OpenJS Foundation</span>
+                                <span class="tag">Apache</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">Faction VC</h3>
+                                <h4 class="position">Technical Partner</h4>
+                            </div>
+                            <span class="time-period">2024 - Present</span>
+                        </div>
+                        <p class="experience-summary">Technical Partner at Faction, an early-stage blockchain venture fund backing the best entrepreneurs and projects that advance the industry or provide positive societal impact.</p>
+                        <button class="expand-toggle">Read More</button>
+                        <div class="experience-details">
+                            <ul>
+                                <li><strong>Venture Partnership:</strong> Leverage 19+ years of experience building API platforms and developer tools to identify and support promising Web3 and blockchain startups.</li>
+                                <li><strong>Technical Due Diligence:</strong> Evaluate technical architecture, team capabilities, and product viability for early-stage blockchain ventures.</li>
+                                <li><strong>Portfolio Support:</strong> Provide strategic technical guidance to portfolio companies, drawing from experience scaling Collab.Land to 3M+ users and founding LoopBack.</li>
+                                <li><strong>Community Engagement:</strong> Active in the blockchain and Web3 community, hosting technical discussions and connecting entrepreneurs with resources.</li>
+                                <li><strong>Industry Advancement:</strong> Focus on investments that drive innovation and create positive impact in the blockchain ecosystem.</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Blockchain</span>
+                            <span class="tech-tag">Web3</span>
+                            <span class="tech-tag">Venture Capital</span>
+                            <span class="tech-tag">Technical Strategy</span>
+                            <span class="tech-tag">Due Diligence</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">Abridged, Inc. (Collab.Land)</h3>
+                                <h4 class="position">Co-Founder and CTO</h4>
+                            </div>
+                            <span class="time-period">02/2021 - 2024</span>
+                        </div>
+                        <p class="experience-summary">As Co-Founder and CTO, I've shaped Collab.Land into a pioneering community management tool leveraging blockchain technology for secure, token-based community engagement.</p>
+                        <button class="expand-toggle">Read More</button>
+                        <div class="experience-details">
+                            <ul>
+                                <li><strong>Strategic Growth and Scalability:</strong> Spearheaded the strategic vision and execution that propelled Collab.Land from an emerging startup to a platform with over 3 million users across 55,000 communities. The backend runs as a Kubernetes cluster on GCP with 200 container instances processing more than 80 jobs per second.</li>
+                                <li><strong>Innovative Technical Leadership:</strong> Designed and implemented a highly modular and scalable platform architecture using LoopBack, enabling seamless integration of over 34 blockchains and 32 wallets.</li>
+                                <li><strong>Blockchain Integration:</strong> Pioneered blockchain technology integration for token gating, creating a secure environment for community engagement. Developed an extensible rule engine for dynamic access control.</li>
+                                <li><strong>Product Development:</strong> Led the development and launch of numerous features including REST APIs, an SDK, and a developer portal, fostering a vibrant ecosystem of developers and third-party applications.</li>
+                                <li><strong>Community Building:</strong> Cultivated a strong community around Collab.Land, establishing thought leadership in blockchain technology and community management.</li>
+                                <li><strong>Leadership and Team Development:</strong> Built and mentored a diverse, distributed team of engineers, instilling a culture of innovation, collaboration, and excellence.</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">Blockchain</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">LoopBack</span>
+                            <span class="tech-tag">GCP</span>
+                            <span class="tech-tag">Microservices</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">IBM Corp.</h3>
+                                <h4 class="position">STSM, Architect, API Connect</h4>
+                            </div>
+                            <span class="time-period">09/2015 - 02/2021</span>
+                        </div>
+                        <p class="experience-summary">Guided the development of LoopBack and API Connect, contributing to IBM's leadership in API management and driving innovation in cloud-native technologies.</p>
+                        <button class="expand-toggle">Read More</button>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Led strategic open-source initiatives and contributed to IBM's API management platform</li>
+                                <li>Drove innovation in cloud-native technologies and microservices architecture</li>
+                                <li>Mentored engineering teams and influenced product strategy</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">API Connect</span>
+                            <span class="tech-tag">LoopBack</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Cloud</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">StrongLoop, Inc.</h3>
+                                <h4 class="position">Co-Founder, Architect</h4>
+                            </div>
+                            <span class="time-period">03/2013 - 09/2015</span>
+                        </div>
+                        <p class="experience-summary">Co-founded StrongLoop, leading product and technical strategy, resulting in acquisition by IBM. Created LoopBack.io, now an OpenJS Foundation project.</p>
+                        <button class="expand-toggle">Read More</button>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Co-created LoopBack.io, an highly extensible Node.js and TypeScript framework for building APIs and microservices</li>
+                                <li>Won the 2019 API Award for "Best in API Middleware" category</li>
+                                <li>Successfully led company to acquisition by IBM in 2015</li>
+                                <li>Engaged with developer community to drive adoption and contributed to Node.js ecosystem</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">LoopBack</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">APIs</span>
+                            <span class="tech-tag">Open Source</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">Shutterfly, Inc.</h3>
+                                <h4 class="position">Staff Web Engineer, Platform Engineering</h4>
+                            </div>
+                            <span class="time-period">04/2010 - 02/2013</span>
+                        </div>
+                        <p class="experience-summary">Led development of Shutterfly's open web APIs and service externalization platforms, enhancing platform scalability and developer integration.</p>
+                        <button class="expand-toggle">Read More</button>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Innovated in service routing, dispatch, and performance optimization</li>
+                                <li>Built service externalization platform enabling third-party integrations</li>
+                                <li>Enhanced platform scalability through architectural improvements</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">APIs</span>
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Platform Engineering</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">IBM Corp.</h3>
+                                <h4 class="position">Senior Software Engineer</h4>
+                            </div>
+                            <span class="time-period">05/2002 - 04/2010</span>
+                        </div>
+                        <p class="experience-summary">Played a pivotal role in business integration platforms using SOA, contributing to Apache Tuscany project and leading OSGi/SCA development.</p>
+                        <button class="expand-toggle">Read More</button>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Contributed to Apache Tuscany open source project</li>
+                                <li>Led efforts in OSGi and SCA development for WebSphere Process Server</li>
+                                <li>Developed SOA-based business integration solutions</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SOA</span>
+                            <span class="tech-tag">Apache Tuscany</span>
+                            <span class="tech-tag">OSGi</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">Soft Tech Development, Inc.</h3>
+                                <h4 class="position">Principal Engineer/Architect</h4>
+                            </div>
+                            <span class="time-period">12/1996 - 05/2002</span>
+                        </div>
+                        <p class="experience-summary">Architected e-OpenBridge, a middleware suite for legacy data and application integration, demonstrating early leadership in software architecture.</p>
+                        <button class="expand-toggle">Read More</button>
+                        <div class="experience-details">
+                            <ul>
+                                <li>Led architecture of e-OpenBridge middleware for legacy system integration</li>
+                                <li>Led various software development projects</li>
+                                <li>Demonstrated early leadership in software architecture and project management</li>
+                            </ul>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Middleware</span>
+                            <span class="tech-tag">Integration</span>
+                            <span class="tech-tag">Architecture</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="company-name">Early Career</h3>
+                                <h4 class="position">Software Engineer</h4>
+                            </div>
+                            <span class="time-period">03/1992 - 07/1996</span>
+                        </div>
+                        <p class="experience-summary">Developed a groundbreaking trading engine and clearing system for futures exchanges in China, showcasing innovation and technical proficiency early in career.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Trading Systems</span>
+                            <span class="tech-tag">Financial Technology</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding bg-alternate">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">Featured Projects</h2>
+            <div class="project-filters" data-animate="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web3">Web3</button>
+                <button class="filter-btn" data-filter="open-source">Open Source</button>
+                <button class="filter-btn" data-filter="apis">APIs</button>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card visible" data-category="web3,apis" data-animate="fade-up">
+                    <div class="project-info">
+                        <h3 class="project-title">Collab.Land</h3>
+                        <p class="project-description">
+                            Community management platform enabling token-based access control for digital communities. Scaled to serve over 3 million users across 55,000 communities with support for 34+ blockchains.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                3M+ Users
+                            </span>
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><path d="M9 3v18"></path></svg>
+                                55K+ Communities
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Blockchain</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Kubernetes</span>
+                            <span class="tag">LoopBack</span>
+                        </div>
+                        <a href="https://collab.land" class="project-link" target="_blank" rel="noopener">
+                            Visit Project →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card visible" data-category="open-source,apis" data-animate="fade-up">
+                    <div class="project-info">
+                        <h3 class="project-title">LoopBack</h3>
+                        <p class="project-description">
+                            Highly extensible Node.js and TypeScript framework for building APIs and microservices. Winner of 2019 API Award for "Best in API Middleware" and now an OpenJS Foundation project.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                2.4M+ Downloads/year
+                            </span>
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M2 12h20"></path></svg>
+                                OpenJS Foundation
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">APIs</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                        <a href="https://loopback.io" class="project-link" target="_blank" rel="noopener">
+                            Visit Project →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card visible" data-category="open-source,apis" data-animate="fade-up">
+                    <div class="project-info">
+                        <h3 class="project-title">Apache Tuscany</h3>
+                        <p class="project-description">
+                            Open source SOA/SCA implementation providing a comprehensive infrastructure for developing and running service-oriented applications. Contributed as core committer during IBM tenure.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                                Apache Project
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">SOA</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">SCA</span>
+                            <span class="tag">OSGi</span>
+                        </div>
+                        <a href="https://tuscany.apache.org" class="project-link" target="_blank" rel="noopener">
+                            Visit Project →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card visible" data-category="apis" data-animate="fade-up">
+                    <div class="project-info">
+                        <h3 class="project-title">IBM API Connect</h3>
+                        <p class="project-description">
+                            Enterprise API management platform enabling organizations to create, secure, manage, and socialize APIs. Led architecture and development as STSM at IBM.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                Enterprise
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">API Management</span>
+                            <span class="tag">Cloud</span>
+                            <span class="tag">Enterprise</span>
+                        </div>
+                        <a href="https://www.ibm.com/cloud/api-connect" class="project-link" target="_blank" rel="noopener">
+                            Learn More →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card visible" data-category="apis" data-animate="fade-up">
+                    <div class="project-info">
+                        <h3 class="project-title">Shutterfly Open Web APIs</h3>
+                        <p class="project-description">
+                            Service externalization platform enabling third-party developers to integrate with Shutterfly's photo and gift services through well-designed APIs.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">REST APIs</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Platform</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card visible" data-category="apis" data-animate="fade-up">
+                    <div class="project-info">
+                        <h3 class="project-title">e-OpenBridge</h3>
+                        <p class="project-description">
+                            Middleware suite for legacy data and application integration, enabling enterprises to modernize their IT infrastructure while preserving existing investments.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Middleware</span>
+                            <span class="tag">Integration</span>
+                            <span class="tag">Legacy Systems</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section-padding">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">Latest Insights</h2>
+            <p class="section-subtitle" data-animate="fade-up">Thoughts on Web3, APIs, and technical leadership</p>
+            <div class="blog-grid">
+                <article class="blog-card" data-animate="fade-up">
+                    <div class="blog-content">
+                        <span class="blog-category">Web3</span>
+                        <h3 class="blog-title">Building Scalable Token-Gated Communities</h3>
+                        <p class="blog-excerpt">
+                            Learn how we scaled Collab.Land to serve 3 million users and 55,000 communities using blockchain technology and Kubernetes.
+                        </p>
+                        <div class="blog-meta">
+                            <span class="blog-tag">Blockchain</span>
+                            <span class="blog-tag">Scalability</span>
+                            <span class="blog-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-animate="fade-up">
+                    <div class="blog-content">
+                        <span class="blog-category">APIs</span>
+                        <h3 class="blog-title">API Design Patterns for Modern Microservices</h3>
+                        <p class="blog-excerpt">
+                            Lessons learned from building LoopBack and leading API development at IBM on designing extensible, maintainable API frameworks.
+                        </p>
+                        <div class="blog-meta">
+                            <span class="blog-tag">APIs</span>
+                            <span class="blog-tag">Architecture</span>
+                            <span class="blog-tag">Node.js</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-animate="fade-up">
+                    <div class="blog-content">
+                        <span class="blog-category">Leadership</span>
+                        <h3 class="blog-title">Leading Distributed Engineering Teams</h3>
+                        <p class="blog-excerpt">
+                            Insights on building and managing high-performing distributed teams in the Web3 space, fostering innovation and collaboration.
+                        </p>
+                        <div class="blog-meta">
+                            <span class="blog-tag">Leadership</span>
+                            <span class="blog-tag">Remote Work</span>
+                            <span class="blog-tag">Culture</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="blog-cta" data-animate="fade-up">
+                <p class="cta-text">More articles coming soon. Follow me on Twitter or LinkedIn for updates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-dark">
+        <div class="container">
+            <h2 class="section-title" data-animate="fade-up">Get In Touch</h2>
+            <p class="section-subtitle" data-animate="fade-up">Interested in collaboration, speaking engagements, or just want to chat about Web3 and APIs?</p>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-up">
+                    <h3>Let's Connect</h3>
+                    <div class="contact-methods">
+                        <a href="mailto:cyberfeng@gmail.com" class="contact-item">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>cyberfeng@gmail.com</span>
+                        </a>
+                        <a href="https://github.com/raymondfeng" class="contact-item" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            <span>github.com/raymondfeng</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/raymondfeng/" class="contact-item" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            <span>linkedin.com/in/raymondfeng</span>
+                        </a>
+                        <a href="https://twitter.com/cyberfeng" class="contact-item" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                            <span>twitter.com/cyberfeng</span>
+                        </a>
+                        <a href="https://warpcast.com/cyberfeng" class="contact-item" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.8 4.6c-.5-.4-1.2-.3-1.6.2L12 13.5 4.8 4.8c-.4-.5-1.1-.6-1.6-.2-.5.4-.6 1.1-.2 1.6l8 10c.2.3.5.4.9.4s.7-.1.9-.4l8-10c.4-.5.3-1.2-.2-1.6zm-8.8 8.6c-.4 0-.7.3-.7.7v5.4c0 .4.3.7.7.7s.7-.3.7-.7v-5.4c0-.4-.3-.7-.7-.7z"/></svg>
+                            <span>warpcast.com/cyberfeng</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <p class="footer-tagline">Crafting software to connect the world by APIs - data, services, and infrastructure</p>
+                    <p class="footer-copyright">&copy; 2026 Raymond Feng. All rights reserved.</p>
+                </div>
+                <div class="footer-education">
+                    <h4>Education</h4>
+                    <p><strong>Master of Computer Engineering</strong><br>
+                    Institute of Software, Chinese Academy of Sciences, Beijing, China (1993-1996)</p>
+                    <p><strong>Bachelor of Computer Software</strong><br>
+                    University of Science and Technology of China, Hefei, Anhui, China (1988-1993)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
