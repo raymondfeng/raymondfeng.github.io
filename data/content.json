@@ -1,38 +1,37 @@
 {
   "personal": {
     "name": "Raymond Feng",
-    "title": "Co-Founder & CTO",
-    "subtitle": "AI Agent Architect | Web3 Technologist",
-    "tagline": "Building autonomous AI systems and connecting the world by APIs - data, services, and infrastructure",
+    "title": "Technical Partner",
+    "subtitle": "API Guru · AI Agent Architect · Web3/Crypto Technologist",
+    "tagline": "Technical Partner @ Lightspeed Faction. Architect of the Faction AI Agent — agent harness + VC deal flow agent. Creator of LoopBack. Co-founder of Collab.Land.",
     "email": "cyberfeng@gmail.com",
     "social": {
       "github": "raymondfeng",
       "linkedin": "raymondfeng",
-      "twitter": "cyberfeng",
-      "farcaster": "cyberfeng"
+      "twitter": "cyberfeng"
     }
   },
-  "summary": "Accomplished technical leader with extensive experience in developing innovative software solutions, leading high-performing teams, and driving growth in startup environments. Expert in Web3, APIs, and open-source technology with a track record of delivering scalable projects and fostering community engagement.",
+  "summary": "Technical Partner at Lightspeed Faction (Faction, JV with Lightspeed). I designed and built the Faction AI Agent: an agent harness (multi-model agentic loop, pluggable hook pipeline, MCP tool orchestration across 170+ tools, three-layer RAG memory, declarative skills, multi-platform delivery) and the firm's VC deal flow agent built on it. The investment team uses it daily to triage decks, run research briefings, mine X/Twitter for signals, and monitor portfolio companies. Beyond the agent, I run the firm's technical due diligence (214 deals reviewed, 70+ deep tech DDs so far), author category research across 9 verticals (AI × crypto, agents, ZK, rollups & MEV, PETs, quantum, Solana, data platforms, agentic commerce), and advise portfolio CTOs on architecture. 30+ years of production engineering before this. Co-founder of Collab.Land (3M users), creator of LoopBack (OpenJS Foundation, 1.9M downloads in the past 12 months and 14M+ lifetime), former IBM STSM on API Connect, Apache Tuscany committer.",
   "achievements": [
     {
+      "number": 173,
+      "label": "Tools — Faction AI Agent",
+      "description": "Orchestrated via MCP (5 custom + 30+ third-party servers) · 31 skills · 14 lifecycle hooks · in daily production since April 2025"
+    },
+    {
+      "number": 214,
+      "label": "Deals — Technical Partner",
+      "description": "214 deals reviewed at Lightspeed Faction · 70+ deep tech DDs · 9 category landscapes · portfolio support"
+    },
+    {
       "number": 3000000,
-      "label": "Users",
-      "description": "Scaled Collab.Land to over 3 million users"
+      "label": "Users — Collab.Land",
+      "description": "3M+ users · 55K+ tokenized communities · 34+ blockchains · 32+ wallets"
     },
     {
-      "number": 55000,
-      "label": "Communities",
-      "description": "Serving 55K+ tokenized communities"
-    },
-    {
-      "number": 2400000,
-      "label": "Downloads",
-      "description": "LoopBack framework in 2023"
-    },
-    {
-      "number": 34,
-      "label": "Blockchains",
-      "description": "Integrated into Collab.Land"
+      "number": 14000000,
+      "label": "Lifetime Downloads — LoopBack 4",
+      "description": "LoopBack 4 core since 2017; 1.9M in the past 12 months"
     }
   ],
   "education": [
