@@ -541,6 +541,10 @@
   gap: var(--space-3);
 }
 
+.project-link + .project-link {
+  margin-left: var(--space-5);
+}
+
 /* ==========================================
    Blog Section
    ========================================== */

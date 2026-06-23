@@ -92,7 +92,7 @@
             <h2 class="section-title" data-animate="fade-up">About Me</h2>
             <div class="about-grid">
                 <div class="about-content" data-animate="fade-up">
-                    <p class="lead">Technical Partner at Lightspeed Faction (Faction, JV with Lightspeed). I designed and built the <strong>Faction AI Agent</strong>: an agent harness (multi-model agentic loop, pluggable hook pipeline, MCP tool orchestration across 170+ tools, three-layer RAG memory, declarative skills, multi-platform delivery) and the firm's VC deal flow agent built on it. The investment team uses it daily to triage decks, run research briefings, mine X/Twitter for signals, and monitor portfolio companies. Beyond the agent, I run the firm's technical due diligence (214 deals reviewed, 70+ deep tech DDs so far), author category research across 9 verticals (AI &times; crypto, agents, ZK, rollups &amp; MEV, PETs, quantum, Solana, data platforms, agentic commerce), and advise portfolio CTOs on architecture. 30+ years of production engineering before this. Co-founder of Collab.Land (3M users), creator of LoopBack (OpenJS Foundation), former IBM STSM, Apache Tuscany committer.</p>
+                    <p class="lead">Technical Partner at Lightspeed Faction (Faction, JV with Lightspeed). I designed and built the <strong>Faction AI Agent</strong>: an agent harness (multi-model agentic loop, pluggable hook pipeline, MCP tool orchestration across 170+ tools, three-layer RAG memory, declarative skills, multi-platform delivery) and the firm's VC deal flow agent built on it. The investment team uses it daily to triage decks, run research briefings, mine X/Twitter for signals, and monitor portfolio companies. Beyond the agent, I run the firm's technical due diligence (214 deals reviewed, 70+ deep tech DDs so far), author category research across 9 verticals (AI &times; crypto, agents, ZK, rollups &amp; MEV, PETs, quantum, Solana, data platforms, agentic commerce), and advise portfolio CTOs on architecture. My latest open source project, <strong>AgentBack</strong>, is a modernization and reimagining of LoopBack 4 for the AI agent era &mdash; one Zod contract becomes your REST endpoints, MCP tools, OpenAPI 3.1 docs, and typed clients. 30+ years of production engineering before this. Co-founder of Collab.Land (3M users), creator of LoopBack (OpenJS Foundation), former IBM STSM, Apache Tuscany committer.</p>
                 </div>
                 <div class="achievements-grid">
                     <div class="achievement-card" data-animate="fade-up">
@@ -551,6 +551,39 @@
                 <button class="filter-btn" data-filter="apis">APIs</button>
             </div>
             <div class="projects-grid">
+                <article class="project-card visible" data-category="ai,open-source,apis" data-animate="fade-up">
+                    <div class="project-info">
+                        <h3 class="project-title">AgentBack</h3>
+                        <p class="project-description">
+                            A modernization and reimagining of LoopBack 4 for the AI agent era &mdash; an AI-native API/MCP framework built with agents, for agents. Your API now has two audiences: human developers and AI agents. Instead of describing each operation four or five times (Zod schema, OpenAPI block, MCP tool, client type), AgentBack describes it once: <strong>one Zod contract</strong> becomes the validator, the inferred type, the OpenAPI 3.1 docs, the MCP tool, the typed client, and the generated <code>SKILL.md</code>. Built on a modern ESM, DI core descended from LoopBack 4's container that runs on any host &mdash; Node, Fastify, Hono, Bun, Deno, or Workers &mdash; from a single <code>fetch</code> handler.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 18l6-6-6-6"></path><path d="M8 6l-6 6 6 6"></path></svg>
+                                One schema, every boundary
+                            </span>
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"></path><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9"></path></svg>
+                                2,000+ tests · MIT · Alpha
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">MCP</span>
+                            <span class="tag">Zod</span>
+                            <span class="tag">OpenAPI 3.1</span>
+                            <span class="tag">Dependency Injection</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                        <a href="https://agentback.dev" class="project-link" target="_blank" rel="noopener">
+                            Visit Project →
+                        </a>
+                        <a href="https://github.com/ninemindai/agentback" class="project-link" target="_blank" rel="noopener">
+                            GitHub →
+                        </a>
+                    </div>
+                </article>
+
                 <article class="project-card visible" data-category="ai,apis" data-animate="fade-up">
                     <div class="project-info">
                         <h3 class="project-title">Faction AI Agent &mdash; Agent Harness + VC Deal Flow Agent</h3>
