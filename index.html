@@ -553,6 +553,43 @@
             <div class="projects-grid">
                 <article class="project-card visible" data-category="ai,open-source,apis" data-animate="fade-up">
                     <div class="project-info">
+                        <h3 class="project-title">AgentGem</h3>
+                        <p class="project-description">
+                            The stepping stone to a <strong>Shopify for AI agents</strong>. AgentGem reads your coding-agent config &mdash; skills, MCP servers, <code>CLAUDE.md</code> &mdash; <strong>redacts secrets the moment they're read</strong>, and packages it into a portable, composable <strong>Gem</strong>: a manifest + lock archive you publish to a GitHub-backed registry, merge with other Gems, and deploy to multiple targets (Eve, Flue, OpenAI Sandbox, AgentCore, Claude Agents). Secrets never leave your device &mdash; only a config <em>shape</em> with <code>&lt;redacted&gt;</code> in place of every sensitive value crosses any boundary. The thesis: you can't profit from a markdown file &mdash; turn agents into callable, monetizable services. Built on AgentBack.
+                        </p>
+                        <div class="project-stats">
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12l4 6-10 13L2 9z"></path><path d="M11 3 8 9l4 13 4-13-3-6"></path><path d="M2 9h20"></path></svg>
+                                Gem your agent
+                            </span>
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                Secret-safe by design
+                            </span>
+                            <span class="stat-item">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                                Composable registry
+                            </span>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">AI Agents</span>
+                            <span class="tag">MCP</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">AgentBack</span>
+                            <span class="tag">Registry</span>
+                            <span class="tag">Open Source</span>
+                        </div>
+                        <a href="https://agentgem.ninemind.ai" class="project-link" target="_blank" rel="noopener">
+                            Visit Project →
+                        </a>
+                        <a href="https://github.com/ninemindai/agentgem" class="project-link" target="_blank" rel="noopener">
+                            GitHub →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card visible" data-category="ai,open-source,apis" data-animate="fade-up">
+                    <div class="project-info">
                         <h3 class="project-title">AgentBack</h3>
                         <p class="project-description">
                             A modernization and reimagining of LoopBack 4 for the AI agent era &mdash; an AI-native API/MCP framework built with agents, for agents. Your API now has two audiences: human developers and AI agents. Instead of describing each operation four or five times (Zod schema, OpenAPI block, MCP tool, client type), AgentBack describes it once: <strong>one Zod contract</strong> becomes the validator, the inferred type, the OpenAPI 3.1 docs, the MCP tool, the typed client, and the generated <code>SKILL.md</code>. Built on a modern ESM, DI core descended from LoopBack 4's container that runs on any host &mdash; Node, Fastify, Hono, Bun, Deno, or Workers &mdash; from a single <code>fetch</code> handler.
